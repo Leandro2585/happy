@@ -1,8 +1,8 @@
 import { Router } from 'express';
-import OrphanagesController from './controllers/OrphanagesController';
+import OrphanagesController from '../controllers/OrphanagesController';
 const routes = Router();
 import multer from 'multer';
-import uploadConfig from './config/upload';
+import uploadConfig from '../../config/upload';
 
 const upload = multer(uploadConfig);
 

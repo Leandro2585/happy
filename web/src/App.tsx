@@ -1,6 +1,7 @@
 import React from 'react';
-import GlobalStyle from './styles/global';
 import Routes from './routes';
+import GlobalStyle from './styles/global';
+import 'leaflet/dist/leaflet.css';
 
 function App() {
   return (
